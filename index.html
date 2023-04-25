@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Exercício</title>
+</head>
+<body>
+    <main id="app">
+    <div>
+        <h1>{{mensagem}}</h1>
+
+        <input type="text" placeholder="Nome" v-model="nome">
+        <br>
+        <input type="text" placeholder="Idade" v-model="idade">
+        <br>
+        <input type="text" placeholder="Email" v-model="email">
+        <br>
+        <button v-if="guardinha == 0" type="button" @click="salvar()">+</button>
+        <button v-if="guardinha !== 0" type="button" @click="salvarEdicao()">+</button>
+    </div>
+
+    <div v-for="(vet,i) in vetClientes">
+        <p>
+            <strong>Nome:</strong>{{vet.nome}}
+            <br>
+            <strong>Idade:</strong>{{vet.idade}}
+            <br>
+            <strong>Email:</strong>{{vet.email}}
+
+            <button type="button" @click="excluir(i)">-</button>
+            <button type="button" @click="editar(i)">edit</button>
+        </p>
+    </div>
+    </main>
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
