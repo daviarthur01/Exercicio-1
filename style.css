@@ -1,0 +1,94 @@
+body {
+    background-image: linear-gradient(270deg, black, transparent);
+    width: 100%;
+    height: 100%;
+}
+
+.DivPrincipal {
+    background: #00000059;
+    width: 400px;
+    height: 250px;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#nome {
+    width: 200px;
+    height: 30px;
+    margin: auto;
+}
+
+#idade {
+    width: 200px;
+    height: 30px;
+    margin: auto;
+}
+
+#email {
+    width: 200px;
+    height: 30px;
+    margin: auto;
+}
+
+#mensagem {
+    color: white;
+}
+
+.button {
+    background-color: rgba(0, 0, 0, 0.685);
+    color: white;
+    border-radius: 7px;
+    border: transparent;
+    display: block;
+    margin: -5px 25px 25px 171px;
+
+
+}
+
+.button:hover {
+    background-color: rgba(0, 0, 0, 0.788);
+    color: white;
+    border-radius: 7px;
+    border: transparent;
+    display: block;
+    margin: auto;
+    margin: -5px 25px 25px 171px;   
+}
+
+#editar {
+    background: #0000005c;
+    width: 400px;
+    height: 154px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 5px 5px 5px 5px;
+}
+
+.Editado {}
+
+#button2 {
+    background-color: rgba(0, 0, 0, 0.685);
+    color: white;
+    border-radius: 7px;
+    border: transparent;
+
+
+
+
+
+}
+
+#button1 {
+    background-color: rgba(0, 0, 0, 0.685);
+    color: white;
+    border-radius: 7px;
+    border: transparent;
+
+
+
+
+}
